@@ -9904,6 +9904,16 @@ button.bg-dark:focus {
     margin-right: 3rem !important;
   }
 
+  .mr-lg-2,
+  .mx-lg-2 {
+    margin-right: 2rem !important;
+  }
+
+  .mr-lg-1,
+  .mx-lg-1 {
+    margin-right: 1rem !important;
+  }
+
   .mb-lg-5,
   .my-lg-5 {
     margin-bottom: 3rem !important;
@@ -15099,48 +15109,68 @@ a.view:hover {
   position: relative;
 }
 
-.w3l-main-slider .banner-view {
-  background: url(../images/sewa-norway-activities.jpg) no-repeat center;
-  background-size: cover;
-  position: relative;
-  z-index: 0;
-  display: grid;
-  align-items: center;
-  min-height: calc(100vh - 50px);
-}
-
-.w3l-main-slider .banner-top1 {
-  background: url(../images/sewa-norway-ekal-vidhyalaya.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.w3l-main-slider .banner-top2 {
-  background: url(../images/sewa-norway-contribution.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.w3l-main-slider .banner-top3 {
-  background: url(../images/web-banner-dandiya.png) no-repeat;
-  background-size: cover;
-  margin-top: -10px;
-}
-
-.w3l-main-slider .banner-top4 {
-  background: url(../images/sewa-norway-julekort-oldage-homes.jpg) no-repeat;
-  background-size: cover;
-}
-
-.w3l-main-slider .banner-top5 {
-  background: url(../images/web-banner-ekal.png) no-repeat left;
-  background-size: cover;
-}
-
-.w3l-main-slider .banner-top6 {
-  background: url(../images/sewa-dandiya-fest.jpg) ;
+.banner-top1 {
+  background: url(../images/sewa-norway-activities.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 48rem; */
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-top2 {
+  background: url(../images/sewa-norway-ekal-vidhyalaya.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-top3 {
+  background: url(../images/sewa-norway-contribution.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-top4 {
+  background: url(../images/web-banner-dandiya.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-top5 {
+  background: url(../images/sewa-norway-julekort-oldage-homes.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-top6 {
+  background: url(../images/web-banner-ekal.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-top7 {
+  background: url(../images/sewa-dandiya-fest.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+
 }
 
 .btn-style span {
