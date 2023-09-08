@@ -253,11 +253,13 @@
         </p>
         <h5> Food Stall Guidelines </h5>
         <p style="margin-left:40px;">
-          <i class="fa fa-angle-double-right"> </i> Each food stall shall costs
-          (waiting for info)- only.
+          <i class="fa fa-angle-double-right"> </i> Price for food stall - 2800 + 500 (security deposit) (includes 2 entry tickets).
           <br>
-          <i class="fa fa-angle-double-right"> </i> Per Dish price should be
-          (waiting for info) max.
+          <i class="fa fa-angle-double-right"> </i> Price for per food plate should not be more than 60 NOK.
+          <br>
+          <i class="fa fa-angle-double-right"> </i> Price for display/advertisement stall - 1000 (includes 1 entry ticket).
+          <br>
+          <i class="fa fa-angle-double-right"> </i> Price for display/advertisement+sale stall - 1500 (includes 1 entry ticket).
           <br>
           <i class="fa fa-angle-double-right"> </i> Food should be fresh and
           cooked only on the day of the event.
@@ -289,13 +291,7 @@
           <i class="fa fa-angle-double-right"> </i> Separate contract signed
           between the Organizer and food stall vendors.
           <br>
-          <i class="fa fa-angle-double-right"> </i> Price for food stall - 2800 + 500 (security deposit) (includes 2 entry tickets).
           <br>
-          <i class="fa fa-angle-double-right"> </i> Price for per food plate should not be more than 60 NOK.
-          <br>
-          <i class="fa fa-angle-double-right"> </i> Price for display/advertisement stall - 1000 (includes 1 entry ticket).
-          <br>
-          <i class="fa fa-angle-double-right"> </i> Price for display/advertisement+sale stall - 1500 (includes 1 entry ticket).<br> <br>
         </p>
         <h5> Inquiries </h5>
         <p>
