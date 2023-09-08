@@ -287,7 +287,15 @@
           the stall owners.
           <br>
           <i class="fa fa-angle-double-right"> </i> Separate contract signed
-          between the Organizer and food stall vendors <br> <br>
+          between the Organizer and food stall vendors.
+          <br>
+          <i class="fa fa-angle-double-right"> </i> Price for food stall - 2800 + 500 (security deposit) (includes 2 entry tickets).
+          <br>
+          <i class="fa fa-angle-double-right"> </i> Price for per food plate should not be more than 60 NOK.
+          <br>
+          <i class="fa fa-angle-double-right"> </i> Price for display/advertisement stall - 1000 (includes 1 entry ticket).
+          <br>
+          <i class="fa fa-angle-double-right"> </i> Price for display/advertisement+sale stall - 1500 (includes 1 entry ticket).<br> <br>
         </p>
         <h5> Inquiries </h5>
         <p>
