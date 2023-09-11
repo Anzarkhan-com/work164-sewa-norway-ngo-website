@@ -15,13 +15,13 @@
 						<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item @@causes__active">
-						<a class="nav-link scroll" href="#causes">Causes</a>
+						<a class="nav-link scroll" href="index.php#causes">Causes</a>
 					</li>
 					<li class="nav-item @@about__active">
-						<a class="nav-link" href="#activities">Activities</a>
+						<a class="nav-link" href="index.php#activities">Activities</a>
 					</li>
 					<li class="nav-item @@about__active">
-						<a class="nav-link" href="#gallery">Gallery</a>
+						<a class="nav-link" href="index.php#gallery">Gallery</a>
 					</li>
 					<li class="nav-item @@about__active">
 						<a class="nav-link" href="infopack.php">Infopack</a>
@@ -29,18 +29,42 @@
 					<!-- <li class="nav-item @@about__active">
 						<a class="nav-link" href="dandiya2022-norway.php">Details of Donation</a>
 					</li> -->
-					<li class="nav-item @@about__active">
+					<!-- <li class="nav-item @@about__active">
 						<a class="nav-link" href="terms.php">Terms & Conditions</a>
-					</li>
+					</li> -->
 					<li class="nav-item @@contact__active">
 						<a class="nav-link" href="#contact">Contact</a>
 					</li>
-					<li class="ml-lg-auto mr-lg-0 m-auto">
-						<!--/search-right-->
-						<div class="search-right">
-							<a href="https://www.facebook.com/SewaNorway" target="_blank"><span class="fa fa-facebook" aria-hidden="true" style="color:#1877F2 !important;"></span></a>
+					<li class="ml-lg-auto mr-lg-0 m-auto d-flex">
+						<!-- Start Facebook Link -->
+						<div class="search-right px-1">
+							<a href="https://www.facebook.com/SewaNorway/" target="_blank"><span class="fa fa-facebook" aria-hidden="true" style="color:#1877F2 !important;"></span></a>
 						</div>
-						<!--//search-right-->
+						<!-- End Facebook Link -->
+
+						<!-- Start Instagram Link -->
+						<div class="search-right px-1">
+							<a href="https://www.instagram.com/sewanorway/" target="_blank"><span class="fa fa-instagram" aria-hidden="true" style="color:#FF0098 !important;"></span></a>
+						</div>
+						<!-- End Instagram Link -->
+
+						<!-- Start Linkedin Link -->
+						<div class="search-right px-1">
+							<a href="#" target="_blank"><span class="fa fa-linkedin" aria-hidden="true" style="color:#0A66C2 !important;"></span></a>
+						</div>
+						<!-- End Linkedin Link -->
+
+						<!-- Start Twitter Link -->
+						<div class="search-right px-1">
+							<a href="#" target="_blank"><span class="fa fa-twitter" aria-hidden="true" style="color:#1DA1F2 !important;"></span></a>
+						</div>
+						<!-- End Twitter Link -->
+
+						<!-- Start Youtube Link -->
+						<div class="search-right px-1">
+							<a href="https://www.youtube.com/@sewanorway2102" target="_blank"><span class="fa fa-youtube" aria-hidden="true" style="color:#FF0000 !important;"></span></a>
+						</div>
+						<!-- End Youtube Link -->
 					</li>
 				</ul>
 			</div>

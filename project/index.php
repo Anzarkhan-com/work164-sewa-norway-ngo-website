@@ -230,7 +230,8 @@
           In 2021, we donated Kr 75,000 and this year (2022) we have donated kr
           112000 to Kreftforeningen.
         </h4>
-        <a href="dandiya2022-norway.php" id="dandiya" target="_blank" class="btn btn-style btn-primary mt-sm-5 mt-4"><span class="fa fa-heart mr-1"></span> Click for Glimpses </a>
+        <a href="https://dandiyaforsewa.ticketco.events/no/nb/e/2023" target="_blank" class="btn btn-style btn-primary mt-sm-5 mt-4 mx-3"><span class="fa fa-ticket mr-1"></span> Get your Ticket </a>
+        <a href="dandiya2022-norway.php" id="dandiya" target="_blank" class="btn btn-style btn-primary mt-sm-5 mt-4 mx-3"><span class="fa fa-heart mr-1"></span> Click for Glimpses </a>
         <!--<br> <br>
 				<p style="text-align:left; font-size:16px; color:white;">
 				Within 3 months of preparation, approx. 250 volunteers were responsible for security, practical implementation, food service and welcoming dancing participants and guests of honor with great joy. Around 2,300 participants attended this event, consisting of children as well as young people, adults and the elderly.
