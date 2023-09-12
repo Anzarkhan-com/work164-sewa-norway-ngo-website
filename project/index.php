@@ -222,10 +222,7 @@
         <h4 class="my-3" style="color:white; text-decoration:underline;">To
           support Norwegian Cancer Society (Kreftforeningen).</h4>
         <h4 style="color:white;">
-          Dandiya for SEWA Event was organized at an Indoor Football
-          stadium-Vall Hall Arena on Saturday 22nd October 2022. It was a fund
-          raising event and all the profits were donated to the Norwegian Cancer
-          society (Kreftforeningen) in Norway.
+          Dandiya for Sewa event will be organized at an Indoor Football stadium - VallHall Arena on Sunday, 22nd October 2023. It is a fundraising event and all the profits will be donated to Norwegian Cancer Society(Kreftforeningen) and other similar organizations in Norway.
           <br> <br>
           In 2021, we donated Kr 75,000 and this year (2022) we have donated kr
           112000 to Kreftforeningen.

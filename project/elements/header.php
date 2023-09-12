@@ -41,30 +41,26 @@
 							<a href="https://www.facebook.com/SewaNorway/" target="_blank"><span class="fa fa-facebook" aria-hidden="true" style="color:#1877F2 !important;"></span></a>
 						</div>
 						<!-- End Facebook Link -->
-
 						<!-- Start Instagram Link -->
 						<div class="search-right px-1">
 							<a href="https://www.instagram.com/sewanorway/" target="_blank"><span class="fa fa-instagram" aria-hidden="true" style="color:#FF0098 !important;"></span></a>
 						</div>
 						<!-- End Instagram Link -->
-
-						<!-- Start Linkedin Link -->
-						<div class="search-right px-1">
-							<a href="#" target="_blank"><span class="fa fa-linkedin" aria-hidden="true" style="color:#0A66C2 !important;"></span></a>
-						</div>
-						<!-- End Linkedin Link -->
-
-						<!-- Start Twitter Link -->
-						<div class="search-right px-1">
-							<a href="#" target="_blank"><span class="fa fa-twitter" aria-hidden="true" style="color:#1DA1F2 !important;"></span></a>
-						</div>
-						<!-- End Twitter Link -->
-
 						<!-- Start Youtube Link -->
 						<div class="search-right px-1">
 							<a href="https://www.youtube.com/@sewanorway2102" target="_blank"><span class="fa fa-youtube" aria-hidden="true" style="color:#FF0000 !important;"></span></a>
 						</div>
 						<!-- End Youtube Link -->
+						<!-- Start Linkedin Link -->
+						<!-- <div class="search-right px-1">
+							<a href="#" target="_blank"><span class="fa fa-linkedin" aria-hidden="true" style="color:#0A66C2 !important;"></span></a>
+						</div> -->
+						<!-- End Linkedin Link -->
+						<!-- Start Twitter Link -->
+						<!-- <div class="search-right px-1">
+							<a href="#" target="_blank"><span class="fa fa-twitter" aria-hidden="true" style="color:#1DA1F2 !important;"></span></a>
+						</div> -->
+						<!-- End Twitter Link -->
 					</li>
 				</ul>
 			</div>

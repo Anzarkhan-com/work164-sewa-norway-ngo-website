@@ -42,9 +42,9 @@
       <div class="row about-container">
         <div class="col-lg-12 content order-lg-1 order-2" style="padding-top:60px; padding-bottom:20px; background:inherit;">
           <div class="icon-box wow fadeInUp">
-            <h1 style="color:antiquewhite; margin-left:50px; text-align:center;">
-              <font color=#342D67> THANK YOU <br> <br> WE WILL GET BACK IN 24 HOURS </font>.
-            </h1>
+            <div style="color:antiquewhite; margin-left:50px; text-align:center;">
+              <h1 color=#342D67> THANK YOU <br> <br> WE WILL GET BACK IN 24 HOURS </h1>.
+            </div>
           </div>
         </div>
         <!-- <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
@@ -59,7 +59,7 @@
         <span>
           <img width="100" height="100" style="margin-right:15px;" src="assets/images/home.png">
         </span>
-        <span style="font-size:24px; font-family:" Ostrich_Sans_Black"; margin-left:-20px;">Now let's go back home.</span>
+        <span style="font-size:24px; margin-left:-20px;">Now let's go back home.</span>
       </a>
     </div>
   </main>

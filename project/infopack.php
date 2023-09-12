@@ -51,7 +51,7 @@
         </p>
         <h5> Information Pack </h5>
         <p>
-          <br><b>Date: Saturday 22nd October 2022 17:00 to 21:00</b> <br>
+          <br><b>Date : Sunday 22nd October 2023 17:00 to 21:00</b> <br>
           <b> Arrival Time:</b> Registration and Check-in starts at <b>17:00 hrs.</b> <br>
           <b>Venue:</b> Vallhall Arena, Dronning Margretes vei 11, 0663 Oslo <br> <br>
           <!-- <b>Contact Persons:</b> <br> Divvyang Pandya <br> Amit Muley <br> <br> -->

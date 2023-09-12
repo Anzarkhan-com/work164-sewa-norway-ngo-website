@@ -27,8 +27,7 @@
 										<input type="text" name="phone" id="w3lPhone" placeholder="Phone number*" required>
 									</div>
 									<textarea name="message" id="w3lMessage" placeholder="Message" style="margin-top:10px;"></textarea>
-									<button type="submit" name="submit" class="btn btn-primary btn-style mt-3" style="padding:10px; line-height:18px; margin-right:20%;">Send
-										Message</button>
+									<button type="submit" name="submit" class="btn btn-primary btn-style mt-3" style="padding:10px; line-height:18px; margin-right:20%;">Send Message</button>
 								</form>
 								<!-- <br> <p><a href="https://sites.google.com/view/sewanorway/home?_ga=2.76454611.737417139.1662107256-806751774.1660588655" target="_blank">Terms & Conditions</a></p>
                               <p><a href="#">Infopack</a></p>
@@ -37,7 +36,6 @@
 							<div class="columns">
 								<h4>Follow Us On</h4> <br>
 								<ul class="d-flex">
-									<!-- <li><a href="https://www.facebook.com/SewaNorway" target="_blank"><span class="fa fa-facebook" aria-hidden="true" style="color:#1877F2 !important;"></span></a></li> -->
 									<!-- Start Facebook Link -->
 									<li>
 										<div class="search-right px-1">
@@ -45,7 +43,6 @@
 										</div>
 									</li>
 									<!-- End Facebook Link -->
-
 									<!-- Start Instagram Link -->
 									<li>
 										<div class="search-right px-1">
@@ -53,21 +50,6 @@
 										</div>
 									</li>
 									<!-- End Instagram Link -->
-
-									<!-- Start Linkedin Link -->
-									<div class="search-right px-1">
-										<a href="#" target="_blank"><span class="fa fa-linkedin" aria-hidden="true" style="color:#0A66C2 !important;"></span></a>
-									</div>
-									<!-- End Linkedin Link -->
-
-									<!-- Start Twitter Link -->
-									<li>
-										<div class="search-right px-1">
-											<a href="#" target="_blank"><span class="fa fa-twitter" aria-hidden="true" style="color:#1DA1F2 !important;"></span></a>
-										</div>
-									</li>
-									<!-- End Twitter Link -->
-
 									<!-- Start Youtube Link -->
 									<li>
 										<div class="search-right px-1">
@@ -75,6 +57,19 @@
 										</div>
 									</li>
 									<!-- End Youtube Link -->
+									<!-- Start Linkedin Link -->
+									<!-- <div class="search-right px-1">
+										<a href="#" target="_blank"><span class="fa fa-linkedin" aria-hidden="true" style="color:#0A66C2 !important;"></span></a>
+									</div> -->
+									<!-- End Linkedin Link -->
+									<!-- Start Twitter Link -->
+									<!-- <li>
+										<div class="search-right px-1">
+											<a href="#" target="_blank"><span class="fa fa-twitter" aria-hidden="true" style="color:#1DA1F2 !important;"></span></a>
+										</div>
+									</li> -->
+									<!-- End Twitter Link -->
+								</ul>
 							</div>
 						</div>
 					</div>
