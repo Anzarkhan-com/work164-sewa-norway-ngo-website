@@ -223,9 +223,8 @@
           support Norwegian Cancer Society (Kreftforeningen).</h4>
         <h4 style="color:white;">
           Dandiya for Sewa event will be organized at an Indoor Football stadium - VallHall Arena on Sunday, 22nd October 2023. It is a fundraising event and all the profits will be donated to Norwegian Cancer Society(Kreftforeningen) and other similar organizations in Norway.
-          <br> <br>
-          In 2021, we donated Kr 75,000 and this year (2022) we have donated kr
-          112000 to Kreftforeningen.
+          <br><br>
+          In 2021, we donated kr 75,000 and in 2022 we donated kr 112000 to kreftforeningen.
         </h4>
         <a href="https://dandiyaforsewa.ticketco.events/no/nb/e/2023" target="_blank" class="btn btn-style btn-primary mt-sm-5 mt-4 mx-3"><span class="fa fa-ticket mr-1"></span> Get your Ticket </a>
         <a href="dandiya2022-norway.php" id="dandiya" target="_blank" class="btn btn-style btn-primary mt-sm-5 mt-4 mx-3"><span class="fa fa-heart mr-1"></span> Click for Glimpses </a>
