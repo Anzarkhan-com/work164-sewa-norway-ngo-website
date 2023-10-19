@@ -84,7 +84,7 @@
     <div class="middle py-5" id="terms">
         <div class="container pt-lg-3">
             <div class="welcome-left py-md-5 py-3">
-                <h3 class="title-big">TERMS <br> <br></h3>
+                <h3 class="title-big">EVENT TERMS <br> <br></h3>
                 <h5>Privacy Policy for Sewa Norway</h5>
                 <p class="my-3">
                     At Sewa Norway, accessible from https://sewanorway.org, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Sewa Norway and how we use it.
@@ -114,21 +114,21 @@
                     We may use the information we collect in various ways, including to:<br> <br>
                 </p>
                 <p style="margin-left:40px;">
-                    <i class="fa fa-angle-double-right"> </i>Provide, operate, and maintain our website and member database
+                    <i class="fa fa-angle-double-right"> </i> Provide, operate, and maintain our website and member database
                     <br>
                     <i class="fa fa-angle-double-right"> </i> Improve, personalize, and expand our website
                     <br>
                     <i class="fa fa-angle-double-right"> </i> Understand and analyze how you use our website
                     <br>
-                    <i class="fa fa-angle-double-right"> </i>Develop new products, services, features, and functionality
+                    <i class="fa fa-angle-double-right"> </i> Develop new products, services, features, and functionality
                     <br>
-                    <i class="fa fa-angle-double-right"> </i>Communicate with you, to provide you with updates and other information relating to the Sewa Norway and associated organizations, and for promotional purposes
+                    <i class="fa fa-angle-double-right"> </i> Communicate with you, to provide you with updates and other information relating to the Sewa Norway and associated organizations, and for promotional purposes
                     <br>
-                    <i class="fa fa-angle-double-right"> </i>Send you emails
+                    <i class="fa fa-angle-double-right"> </i> Send you emails
                     <br>
-                    <i class="fa fa-angle-double-right"> </i>Send you SMS
+                    <i class="fa fa-angle-double-right"> </i> Send you SMS
                     <br>
-                    <i class="fa fa-angle-double-right"> </i>Find and prevent fraud
+                    <i class="fa fa-angle-double-right"> </i> Find and prevent fraud
                     <br>
                     <br>
                 </p>
@@ -149,31 +149,31 @@
                 <br>
                 <p>The following links may be helpful, or you can use the “Help” option in your browser.</p>
                 <p style="margin-left:40px;">
-                    <i class="fa fa-angle-double-right"> </i>Cookie settings in Internet Explorer
+                    <i class="fa fa-angle-double-right"> </i> Cookie settings in Internet Explorer
                     <br>
                     <i class="fa fa-angle-double-right"> </i> Cookie settings in Firefox
                     <br>
                     <i class="fa fa-angle-double-right"> </i> Cookie settings in Chrome
                     <br>
-                    <i class="fa fa-angle-double-right"> </i>Cookie settings in Safari web and iOS
+                    <i class="fa fa-angle-double-right"> </i> Cookie settings in Safari web and iOS
                     <br>
                 </p>
                 <p><b>Useful links</b></p>
                 <p>If you would like to find out more about privacy, cookies and their use on the internet, you may find the following links useful:</p>
                 <p style="margin-left:40px;">
-                    <i class="fa fa-angle-double-right"> </i>Microsoft cookies guide <b> <a href="https://support.microsoft.com/en-us/help/260971/description-of-cookies"> : Like to : https://support.microsoft.com/en-us/help/260971/description-of-cookies</a></b>
+                    <i class="fa fa-angle-double-right"> </i> <b> <a href="https://support.microsoft.com/en-us/help/260971/description-of-cookies" target="_blank"> Microsoft cookies guide</a></b>
                     <br>
-                    <i class="fa fa-angle-double-right"> </i> All About Cookies : Link to <b><a href="http://www.allaboutcookies.org/"> : http://www.allaboutcookies.org/</a></b>
+                    <i class="fa fa-angle-double-right"> </i><b><a href="http://www.allaboutcookies.org/" target="_blank"> All About Cookies</a></b>
                     <br>
-                    <i class="fa fa-angle-double-right"> </i> Event terms <b><a href="https://www.sewanorway.org/eventterms.php"> : https://www.sewanorway.org/eventterms.php</a></b>
+                    <i class="fa fa-angle-double-right"> </i><b><a href="https://www.sewanorway.org/eventterms.php" target="_blank"> Event terms</a></b>
                     <br>
                 </p>
 
 
                 <h5> Third Party Privacy Policies </h5>
                 <p>
-                Sewa Norway’s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. <br> <br>
-                You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers’ respective websites.
+                    Sewa Norway’s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. <br> <br>
+                    You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers’ respective websites.
                     <br> <br>
                 </p>
                 <h5> GDPR Data Protection Rights </h5>
@@ -195,7 +195,7 @@
                 </p>
                 <h5> Children’s Information </h5>
                 <p>
-                If you have any questions about this Privacy Policy, You can contact us via email <b> <a href="mailto:sewa@sewanorway.org"> sewa@sewanorway.org </a> </b>
+                    If you have any questions about this Privacy Policy, You can contact us via email <b> <a href="mailto:sewa@sewanorway.org"> sewa@sewanorway.org </a> </b>
                     <br> <br>
                 </p>
             </div>
