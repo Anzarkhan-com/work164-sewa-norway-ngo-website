@@ -19,6 +19,12 @@
   <!-- End Header Section -->
   <section style="margin-top:80px;">
     <div class="owl-one owl-carousel owl-theme">
+
+    <div class="item">
+        <div class="banner-top8">
+        </div>
+      </div>
+
       <div class="item">
         <div class="banner-top7">
         </div>
