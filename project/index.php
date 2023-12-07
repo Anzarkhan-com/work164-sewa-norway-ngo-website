@@ -11,6 +11,7 @@
   <link href="assets/images/favicon.png" rel="icon">
   <link rel="stylesheet" href="assets/css/style-starter.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
   <section style="margin-top:80px;">
     <div class="owl-one owl-carousel owl-theme">
 
-    <div class="item">
+      <div class="item">
         <div class="banner-top8">
         </div>
       </div>
@@ -225,12 +226,11 @@
     <div class="container pt-lg-3">
       <div class="welcome-left text-center py-md-5 py-3">
         <h3 class="title-big" style="color:white;">Dandiya For SEWA </h3>
-        <h4 class="my-3" style="color:white; text-decoration:underline;">To
-          support Norwegian Cancer Society (Kreftforeningen).</h4>
+        <h4 class="my-3" style="color:white; text-decoration:underline;">To support Norwegian Cancer Society (Kreftforeningen) along with Fattighuset and Norges Blindeforbund.</h4>
         <h4 style="color:white;">
-          Dandiya for Sewa event will be organized at an Indoor Football stadium - VallHall Arena on Sunday, 22nd October 2023. It is a fundraising event and all the profits will be donated to Norwegian Cancer Society(Kreftforeningen) and other similar organizations in Norway.
+          Dandiya for Sewa event was organized at an Indoor Football stadium - VallHall Arena on Sunday, 22nd October 2023. It was a fundraising event and all the profits are donated to Norwegian Cancer Society(Kreftforeningen), Fattighuset(Poor People home) & Norges Blindeforbund( Blind People association).
           <br><br>
-          In 2021, we donated kr 75,000 and in 2022 we donated kr 112000 to kreftforeningen.
+          In 2021, we donated kr 75,000 and in 2022 we donated kr 112000 to kreftforeningen. In 2023 we donated 60000 Kr to Kreftforeningen, 20000 kr to Fattighuset & 20000 kr to Norges Blindeforbund.
         </h4>
         <a href="https://dandiyaforsewa.ticketco.events/no/nb/e/2023" target="_blank" class="btn btn-style btn-primary mt-sm-5 mt-4 mx-3"><span class="fa fa-ticket mr-1"></span> Get your Ticket </a>
         <a href="dandiya2022-norway.php" id="dandiya" target="_blank" class="btn btn-style btn-primary mt-sm-5 mt-4 mx-3"><span class="fa fa-heart mr-1"></span> Click for Glimpses </a>
@@ -257,7 +257,7 @@
           <div class="causes-grid-info">
             <a class="cause-title-wrap">
               <p class="title">Ukraine </p>
-              <h4 class="cause-title">Winter & Disaster Relief <br>in Ukraine
+              <h4 class="cause-title">Winter Relief
               </h4>
               <!-- <p class="counter-inherit">
                             $86,800 Donated of $310,000
@@ -275,7 +275,7 @@
             <div class="panel-group" id="accordion">
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><img src="assets/images/ukraine-relief-seva-norway1.png" class="img-fuild radius-image-full" alt></a> </h4>
+                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><img src="assets/images/ukraine-orphanage-winter-donate-appeal.jpg" class="img-fuild radius-image-full" alt></a> </h4>
                 </div>
                 <div id="collapse4" class="panel-collapse collapse in">
                   <div class="panel-body">
@@ -494,15 +494,21 @@
       <div class="main">
         <div id="myBtnContainer">
           <button class="btns active" onclick="filterSelection('all')"> All</button>
-          <button class="btns" onclick="filterSelection('orphanage')"> Ukraine
-            Winter relief</button>
+          <button class="btns" onclick="filterSelection('orphanage')"> Ukraine Relief</button>
           <button class="btns" onclick="filterSelection('oldage')"> Julekort</button>
-          <button class="btns" onclick="filterSelection('dandiya')"> Dandiya</button>
-          <button class="btns" onclick="filterSelection('ukraine')"> Ukraine</button>
+          <!-- <button class="btns" onclick="filterSelection('dandiya')"> Dandiya </button> -->
+          <button class="btns" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dandiya
+          </button>
+          <ul class="dropdown-menu">
+            <li class="btns" onclick="filterSelection('dandiya')">2021</li>
+            <li class="btns" onclick="filterSelection('dandiya')">2022</li>
+            <li class="btns" onclick="filterSelection('dandiya')">2023</li>
+          </ul>
+          <!-- <button class="btns" onclick="filterSelection('ukraine')"> Ukraine</button> -->
           <button class="btns" onclick="filterSelection('ekal')"> Ekal School</button>
           <button class="btns" onclick="filterSelection('covid')"> COVID-19</button>
-          <button class="btns" onclick="filterSelection('beach')"> Beach
-            Cleaning</button>
+          <button class="btns" onclick="filterSelection('beach')"> Sewa Day </button>
         </div>
         <!-- Portfolio Gallery Grid -->
         <div class="rows">
@@ -526,7 +532,7 @@
               <img src="assets/images/gallery/ekal2023/7.png" alt="sewa norway - ekal vidhyalaya visit 2023" style="width:100%">
             </div>
           </div>
-          <div class="column ukraine">
+          <div class="column orphanage">
             <div class="content">
               <img src="assets/images/gallery/25.jpg" alt="sewa norway - ukraine support" style="width:100%">
             </div>
@@ -661,9 +667,9 @@
               <img src="assets/images/gallery/orphanage/11.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column ukraine">
+          <div class="column orphanage">
             <div class="content">
-              <img src="assets/images/gallery/29.jpg" alt="sewa norway - ukraine support" style="width:100%">
+              <img src="assets/images/gallery/29.jpg" alt="sewa norway - orphanage support" style="width:100%">
             </div>
           </div>
           <div class="column dandiya">
@@ -761,7 +767,7 @@
               <img src="assets/images/gallery/oldagehome2022/13.jpg" alt="sewa norway - old age home visit" style="width:100%">
             </div>
           </div>
-          <div class="column ukraine">
+          <div class="column orphanage">
             <div class="content">
               <img src="assets/images/gallery/27.jpg" alt="sewa norway - ukraine support" style="width:100%">
             </div>
@@ -806,9 +812,9 @@
               <img src="assets/images/gallery/dandiya2022/10.jpeg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column ukraine">
+          <div class="column orphanage">
             <div class="content">
-              <img src="assets/images/gallery/23.jpg" alt="sewa norway - ukraine support" style="width:100%">
+              <img src="assets/images/gallery/23.jpg" alt="sewa norway - orphanage support" style="width:100%">
             </div>
           </div>
           <div class="column oldage">
@@ -831,9 +837,9 @@
               <img src="assets/images/gallery/45.jpg" alt="sewa norway - ekal vidhyalaya" style="width:100%">
             </div>
           </div>
-          <div class="column ukraine">
+          <div class="column orphanage">
             <div class="content">
-              <img src="assets/images/gallery/26.jpg" alt="sewa norway - ukraine support" style="width:100%">
+              <img src="assets/images/gallery/26.jpg" alt="sewa norway - orphanage support" style="width:100%">
             </div>
           </div>
           <div class="column beach">
@@ -871,9 +877,9 @@
               <img src="assets/images/gallery/dandiya2022/14.jpeg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column ukraine">
+          <div class="column orphanage">
             <div class="content">
-              <img src="assets/images/gallery/24.jpg" alt="sewa norway - ukraine support" style="width:100%">
+              <img src="assets/images/gallery/24.jpg" alt="sewa norway - orphanage support" style="width:100%">
             </div>
           </div>
           <div class="column ekal">
@@ -946,9 +952,9 @@
               <img src="assets/images/gallery/dandiya2022/18.jpeg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column ukraine">
+          <div class="column orphanage">
             <div class="content">
-              <img src="assets/images/gallery/28.jpg" alt="sewa norway - ukraine support" style="width:100%">
+              <img src="assets/images/gallery/28.jpg" alt="sewa norway - orphanage support" style="width:100%">
             </div>
           </div>
           <div class="column oldage">
@@ -981,9 +987,9 @@
               <img src="assets/images/gallery/dandiya2022/21.jpeg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column ukraine">
+          <div class="column orphanage">
             <div class="content">
-              <img src="assets/images/gallery/30.jpg" alt="sewa norway - ukraine support" style="width:100%">
+              <img src="assets/images/gallery/30.jpg" alt="sewa norway - orphanage support" style="width:100%">
             </div>
           </div>
           <div class="column oldage">
@@ -1358,6 +1364,9 @@
       }
     });
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 
 </html>
