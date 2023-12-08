@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -13,19 +12,16 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-
 <body>
   <!-- Start Header Section -->
   <?php require_once './elements/header.php' ?>
   <!-- End Header Section -->
   <section style="margin-top:80px;">
     <div class="owl-one owl-carousel owl-theme">
-
       <div class="item">
         <div class="banner-top8">
         </div>
       </div>
-
       <div class="item">
         <div class="banner-top7">
         </div>
@@ -38,10 +34,10 @@
         <div class="banner-top5">
         </div>
       </div>
-      <div class="item">
+      <!-- <div class="item">
         <div class="banner-top4">
-        </div>
-      </div>
+        </div> 
+      </div> -->
       <div class="item">
         <div class="banner-top3">
         </div>
@@ -257,7 +253,7 @@
           <div class="causes-grid-info">
             <a class="cause-title-wrap">
               <p class="title">Ukraine </p>
-              <h4 class="cause-title">Winter Relief
+              <h4 class="cause-title">Disaster and winter relieft
               </h4>
               <!-- <p class="counter-inherit">
                             $86,800 Donated of $310,000
@@ -450,7 +446,7 @@
           <div class="area-box">
             <h4><a href="#feature" class="title-head">Christmas cards for Old
                 Age Home</a></h4>
-            <img src="assets/images/christmas-cards-for-old-age-home.jpg" alt class="img-fluid radius-image-full"> <br> <br>
+            <img src="assets/images/christmas-cards-for-old-age-home.jpg" alt class="img-fluid radius-image-full" style="height: 245px;"> <br> <br>
             <!-- <p class="mb-3">We planned Christmas and new year greeting cards for people living in old age homes. Our volunteers contacted Asker & Oslo kommune, three Old age homes accepted gracefully. We were delighted to see several small children, parents and teenage kids happily made hundreds of beautiful cards. </p> -->
             <p class="mb-3">Thank you so much for supporting a great cause and
               spreading happiness. We have delivered 1000 julekort in 14 oldage
@@ -464,7 +460,7 @@
           <div class="area-box">
             <h4><a href="#feature" class="title-head">COVID-19 Pandemic Support
                 to India</a></h4>
-            <img src="assets/images/sewa-norway-covid-19-oxygen-concentrator.jpg" alt class="img-fluid radius-image-full"> <br> <br>
+            <img src="assets/images/Covid.jpg" alt class="img-fluid radius-image-full" style="height: 245px;"> <br> <br>
             <p class="mb-3">SEWA Norway has procured 36 concentrators and
               shipped those in Delhi on 4th May. Through SEWA Norway, JACOMEDIC
               donated medical supplies along with Oxygen Masks, Filters, Tubes,
@@ -474,9 +470,9 @@
         </div>
         <div class="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-5">
           <div class="area-box">
-            <h4><a href="#feature" class="title-head">Beach Cleaning activities
+            <h4><a href="#feature" class="title-head"> Sewa day activities
                 near Kvernaviga</a></h4>
-            <img src="assets/images/beach-cleaning-sewa-norway.jpg" alt class="img-fluid radius-image-full"> <br> <br>
+            <img src="assets/images/beach-cleaning-sewa-norway.jpg" alt class="img-fluid radius-image-full" style="height: 245px;"> <br> <br>
             <p class="mb-3">SEWA Norway on a clean-up mission on Saturday 2
               October! Adults and children were eager and engaged as we searched
               for rubbish between the stones. Meters of rope remains were the
@@ -494,16 +490,23 @@
       <div class="main">
         <div id="myBtnContainer">
           <button class="btns active" onclick="filterSelection('all')"> All</button>
-          <button class="btns" onclick="filterSelection('orphanage')"> Ukraine Relief</button>
+          <button class="btns" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ukraine Relief
+          </button>
+          <ul class="dropdown-menu">
+            <li class="btns" onclick="filterSelection('orphanage2')">Disaster</li>
+            <li class="btns" onclick="filterSelection('orphanage1')">winter Relief</li>
+          </ul>
+          <!-- <button class="btns" onclick="filterSelection('orphanage')"> Ukraine Relief</button> -->
           <button class="btns" onclick="filterSelection('oldage')"> Julekort</button>
           <!-- <button class="btns" onclick="filterSelection('dandiya')"> Dandiya </button> -->
           <button class="btns" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Dandiya
+            Dandiya
           </button>
           <ul class="dropdown-menu">
-            <li class="btns" onclick="filterSelection('dandiya')">2021</li>
+            <li class="btns" onclick="filterSelection('dandiya3')">2023</li>
             <li class="btns" onclick="filterSelection('dandiya')">2022</li>
-            <li class="btns" onclick="filterSelection('dandiya')">2023</li>
+            <li class="btns" onclick="filterSelection('dandiya')">2021</li>
           </ul>
           <!-- <button class="btns" onclick="filterSelection('ukraine')"> Ukraine</button> -->
           <button class="btns" onclick="filterSelection('ekal')"> Ekal School</button>
@@ -532,7 +535,7 @@
               <img src="assets/images/gallery/ekal2023/7.png" alt="sewa norway - ekal vidhyalaya visit 2023" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage2">
             <div class="content">
               <img src="assets/images/gallery/25.jpg" alt="sewa norway - ukraine support" style="width:100%">
             </div>
@@ -547,7 +550,7 @@
               <img src="assets/images/gallery/ekal2023/9.png" alt="sewa norway - ekal vidhyalaya visit 2023" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/orphanage/13.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
@@ -582,7 +585,7 @@
               <img src="assets/images/gallery/32.jpg" alt="sewa norway - beach cleaning" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage2">
             <div class="content">
               <img src="assets/images/gallery/orphanage/14.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
@@ -622,7 +625,7 @@
               <img src="assets/images/gallery/39.jpg" alt="sewa norway - ekal vidhyalaya" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/orphanage/4.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
@@ -632,7 +635,7 @@
               <img src="assets/images/gallery/dandiya2022/4.jpeg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/orphanage/3.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
@@ -647,7 +650,7 @@
               <img src="assets/images/gallery/40.jpg" alt="sewa norway - ekal vidhyalaya" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/orphanage/10.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
@@ -662,12 +665,12 @@
               <img src="assets/images/gallery/oldagehome2022/7.jpeg" alt="sewa norway - old age home visit" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/orphanage/11.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage2">
             <div class="content">
               <img src="assets/images/gallery/29.jpg" alt="sewa norway - orphanage support" style="width:100%">
             </div>
@@ -677,7 +680,7 @@
               <img src="assets/images/gallery/dandiya2022/5.jpeg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/orphanage/1.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
@@ -697,7 +700,7 @@
               <img src="assets/images/gallery/oldagehome2022/9.jpeg" alt="sewa norway - old age home visit" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/orphanage/2.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
@@ -712,7 +715,7 @@
               <img src="assets/images/gallery/35.jpg" alt="sewa norway - beach cleaning" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/orphanage/5.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
@@ -732,7 +735,7 @@
               <img src="assets/images/gallery/dandiya2022/7.jpeg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/orphanage/7.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
@@ -757,7 +760,7 @@
               <img src="assets/images/gallery/oldagehome2022/12.jpeg" alt="sewa norway - old age home visit" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/orphanage/9.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
@@ -767,7 +770,7 @@
               <img src="assets/images/gallery/oldagehome2022/13.jpg" alt="sewa norway - old age home visit" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/27.jpg" alt="sewa norway - ukraine support" style="width:100%">
             </div>
@@ -777,7 +780,7 @@
               <img src="assets/images/gallery/dandiya2022/9.jpeg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage2">
             <div class="content">
               <img src="assets/images/gallery/orphanage/15.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
@@ -792,7 +795,7 @@
       <img src="assets/images/gallery/20.jpeg" alt="sewa norway - covid-19 support" style="width:100%">
     </div>
   </div> -->
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/orphanage/12.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
@@ -812,7 +815,7 @@
               <img src="assets/images/gallery/dandiya2022/10.jpeg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage2">
             <div class="content">
               <img src="assets/images/gallery/23.jpg" alt="sewa norway - orphanage support" style="width:100%">
             </div>
@@ -837,7 +840,7 @@
               <img src="assets/images/gallery/45.jpg" alt="sewa norway - ekal vidhyalaya" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage1">
             <div class="content">
               <img src="assets/images/gallery/26.jpg" alt="sewa norway - orphanage support" style="width:100%">
             </div>
@@ -877,7 +880,7 @@
               <img src="assets/images/gallery/dandiya2022/14.jpeg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage2">
             <div class="content">
               <img src="assets/images/gallery/24.jpg" alt="sewa norway - orphanage support" style="width:100%">
             </div>
@@ -952,7 +955,7 @@
               <img src="assets/images/gallery/dandiya2022/18.jpeg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage2">
             <div class="content">
               <img src="assets/images/gallery/28.jpg" alt="sewa norway - orphanage support" style="width:100%">
             </div>
@@ -987,7 +990,7 @@
               <img src="assets/images/gallery/dandiya2022/21.jpeg" alt="sewa norway - Dandiya 2022" style="width:100%">
             </div>
           </div>
-          <div class="column orphanage">
+          <div class="column orphanage2">
             <div class="content">
               <img src="assets/images/gallery/30.jpg" alt="sewa norway - orphanage support" style="width:100%">
             </div>
@@ -1142,13 +1145,372 @@
               <img src="assets/images/gallery/10.JPG" alt="sewa norway - dandiya night" style="width:100%">
             </div>
           </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/1.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/2.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/3.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/4.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/10.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/14.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/15.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/22.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/24.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/26.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/27.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/29.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/30.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/34.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/7.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/16.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/17.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/18.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/19.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/20.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/21.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/8.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/9.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/25.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/5.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/11.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/28.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/12.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/13.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/31.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/32.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/33.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/6.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/35.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column beach">
+            <div class="content">
+              <img src="assets/images/gallery/Sewa-day/23.jpg" alt="sewa norway - beach cleaning" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/1.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/2.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/3.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/4.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/5.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/6.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/7.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/8.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/9.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/10.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/11.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/12.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/13.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/14.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/15.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/19.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/20.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/21.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/16.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/17.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/18.jpg " alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/22.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/23.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/24.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/25.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/26.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/27.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/28.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/29.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/30.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/31.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/32.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/33.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/34.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/35.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/36.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
+          <div class="column dandiya3">
+            <div class="content">
+              <img src="assets/images/gallery/garba23/37.jpg" alt="sewa norway - Dandiya 2022" style="width:100%">
+            </div>
+          </div>
           <!-- END GRID -->
-        </div>
         <!-- END MAIN -->
       </div>
       <script>
         filterSelection("all")
-
         function filterSelection(c) {
           var x, i;
           x = document.getElementsByClassName("column");
@@ -1158,7 +1520,6 @@
             if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "shows");
           }
         }
-
         function w3AddClass(element, name) {
           var i, arr1, arr2;
           arr1 = element.className.split(" ");
@@ -1169,7 +1530,6 @@
             }
           }
         }
-
         function w3RemoveClass(element, name) {
           var i, arr1, arr2;
           arr1 = element.className.split(" ");
@@ -1206,42 +1566,42 @@
           <div class="col-md-2 col-6">
             <div class="counter">
               <span class="fa fa-calendar"></span>
-              <div class="timer count-title count-number mt-3" data-to="7" data-speed="500"></div>
+              <div class="timer count-title count-number mt-3" data-to="8" data-speed="500"></div>
               <p class="count-text ">Years with Ekal Vidhyalaya</p>
             </div>
           </div>
           <div class="col-md-2 col-6">
             <div class="counter">
               <span class="fa fa-book"></span>
-              <div class="timer count-title count-number mt-3" data-to="492" data-speed="500"></div>
+              <div class="timer count-title count-number mt-3" data-to="546 " data-speed="500"></div>
               <p class="count-text ">Schools Supported</p>
             </div>
           </div>
           <div class="col-md-2 col-6">
             <div class="counter">
               <span class="fa fa-users"></span>
-              <div class="timer count-title count-number mt-3" data-to="14760" data-speed="500"></div>
+              <div class="timer count-title count-number mt-3" data-to="16110" data-speed="500"></div>
               <p class="count-text ">Students Benefited</p>
             </div>
           </div>
           <div class="col-md-2 col-6">
             <div class="counter">
               <span class="fa fa-graduation-cap"></span>
-              <div class="timer count-title count-number mt-3" data-to="1463600" data-speed="500"></div>
+              <div class="timer count-title count-number mt-3" data-to="1615000" data-speed="500"></div>
               <p class="count-text ">Kroner Contributed for Education</p>
             </div>
           </div>
           <div class="col-md-2 col-6">
             <div class="counter">
               <span class="fa fa-heartbeat"></span>
-              <div class="timer count-title count-number mt-3" data-to="212000" data-speed="500"></div>
+              <div class="timer count-title count-number mt-3" data-to="270000" data-speed="500"></div>
               <p class="count-text ">Kroner donated for Cancer</p>
             </div>
           </div>
           <div class="col-md-2 col-6">
             <div class="counter">
               <span class="fa fa-money"></span>
-              <div class="timer count-title count-number mt-3" data-to="2153600 " data-speed="500"></div>
+              <div class="timer count-title count-number mt-3" data-to="2405000 " data-speed="500"></div>
               <p class="count-text ">Kroner contributed to various causes</p>
             </div>
           </div>
@@ -1366,7 +1726,6 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
-
 </html>
