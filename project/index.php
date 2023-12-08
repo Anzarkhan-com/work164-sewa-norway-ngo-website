@@ -253,7 +253,7 @@
           <div class="causes-grid-info">
             <a class="cause-title-wrap">
               <p class="title">Ukraine </p>
-              <h4 class="cause-title">Disaster and winter relieft
+              <h4 class="cause-title">Disaster and winter relief
               </h4>
               <!-- <p class="counter-inherit">
                             $86,800 Donated of $310,000
