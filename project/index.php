@@ -224,7 +224,7 @@
         <h3 class="title-big" style="color:white;">Dandiya For SEWA </h3>
         <h4 class="my-3" style="color:white; text-decoration:underline;">To support Norwegian Cancer Society (Kreftforeningen) along with Fattighuset and Norges Blindeforbund.</h4>
         <h4 style="color:white;">
-          Dandiya for Sewa event was organized at an Indoor Football stadium - VallHall Arena on Sunday, 22nd October 2023. It was a fundraising event and all the profits are donated to Norwegian Cancer Society(Kreftforeningen), Fattighuset(Poor People home) & Norges Blindeforbund( Blind People association).
+          Dandiya for Sewa event was organized at an Indoor Football stadium - VallHall Arena on Sunday,  19th Oct 2024. It was a fundraising event and all the profits are donated to Norwegian Cancer Society(Kreftforeningen), Fattighuset(Poor People home) & Norges Blindeforbund( Blind People association).
           <br><br>
           In 2021, we donated kr 75,000 and in 2022 we donated kr 112000 to kreftforeningen. In 2023 we donated 60000 Kr to Kreftforeningen, 20000 kr to Fattighuset & 20000 kr to Norges Blindeforbund.
         </h4>
